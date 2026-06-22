@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* ========== WOODEN FURNITURE THEME ========== */
+@theme {
+  --color-walnut: #5C3A21;
+  --color-walnut-light: #7B5B3A;
+  --color-walnut-dark: #2C1810;
+  --color-oak: #8B6914;
+  --color-oak-light: #A8852B;
+  --color-cream: #FFF8F0;
+  --color-cream-dark: #F5E6D3;
+  --color-honey: #D4A574;
+  --color-honey-light: #E8C9A0;
+  --color-espresso: #2C1810;
+  --color-beige: #F5E6D3;
+  --color-offwhite: #FAF7F2;
+  --color-wood-rose: #C49A7C;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--color-offwhite);
+  color: var(--color-espresso);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-walnut);
+  border-radius: 4px;
+}
+
+/* Swiper customization */
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--color-walnut) !important;
+}
+.swiper-pagination-bullet-active {
+  background: var(--color-walnut) !important;
+}

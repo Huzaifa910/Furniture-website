@@ -14,8 +14,8 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <span className="text-3xl">🪑</span>
               <div>
-                <h3 className="text-xl font-bold text-cream">WoodCraft</h3>
-                <p className="text-xs text-honey -mt-1 tracking-wider">FURNITURE</p>
+                <h3 className="text-xl font-bold text-cream">Huzaifa Craft</h3>
+                <p className="text-xs text-honey -mt-1 tracking-wider">INTERIOR</p>
               </div>
             </div>
             <p className="text-cream/70 text-sm leading-relaxed mb-6">
@@ -114,7 +114,7 @@ const Footer = () => {
       <div className="border-t border-cream/10">
         <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col md:flex-row justify-between items-center gap-3">
           <p className="text-cream/50 text-sm">
-            © {new Date().getFullYear()} WoodCraft Furniture. All rights reserved.
+            © {new Date().getFullYear()} Huzaifa Craft. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-cream/50">
             <a href="#" className="hover:text-honey transition-colors">Privacy Policy</a>

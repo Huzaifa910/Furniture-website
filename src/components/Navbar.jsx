@@ -63,9 +63,9 @@ const Navbar = () => {
               <span className="text-3xl">🪑</span>
               <div>
                 <h1 className="text-2xl font-bold text-walnut group-hover:text-oak transition-colors">
-                  WoodCraft
+                  Huzaifa Craft
                 </h1>
-                <p className="text-xs text-oak -mt-1 tracking-wider">FURNITURE</p>
+                <p className="text-xs text-oak -mt-1 tracking-wider">INTERIOR</p>
               </div>
             </Link>
 
